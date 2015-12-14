@@ -1,2 +1,3 @@
 https://www.kaggle.com/c/whats-cooking
 cv.py contains code to test algo with different parameters
+xgb + centroid features gives score 0.77 
