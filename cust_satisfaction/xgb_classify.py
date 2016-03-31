@@ -1,7 +1,7 @@
 import xgboost as xgb
 import numpy as np
 
-X_train = np.loadtxt('features_train.csv', delimiter='')
+X_train = np.loadtxt('features_train.csv', delimiter=',')
 Y_train = np.loadtxt('labels.csv')
 X_test = np.loadtxt('features_test.csv', delimiter=',')
 xg_train = xgb.DMatrix( X, label=Y)
