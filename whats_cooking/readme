@@ -1,3 +1,7 @@
+What's cooking competition in kaggle asks you to predict the category of a dish's cuisine given a list of its ingredients.
+This one was really interesting type of problem and more importantly dataset was small so that I was able to train it in my laptop easily. I tried it over a weekend and was able to get decent accuracy within few attempts.
+I have used word2Vec to get word(ingredients) embeddings and then created a sentence embedding using cluster centroids. 
+
 https://www.kaggle.com/c/whats-cooking
 cv.py contains code to test algo with different parameters
 xgb + centroid features gives score 0.77 
